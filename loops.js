@@ -21,7 +21,7 @@ function doWhileLoop(array){
 }
  
 do {
-  delete array.pop
+  array.pop()
 } while (maybeTrue());
   return array
 }
